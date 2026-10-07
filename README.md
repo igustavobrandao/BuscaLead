@@ -1,6 +1,6 @@
-# School Leads Finder
+# BuscaLead
 
-CLI em Node.js para descobrir, enriquecer e qualificar leads B2B no Google Places API (New). O projeto é backend-only: a chave da API permanece sempre no ambiente local e nunca é exposta a um navegador.
+CLI em Node.js para descobrir, enriquecer e qualificar leads B2B com a Google Places API (New). O BuscaLead é backend-only: a chave da API permanece sempre no ambiente local e nunca é exposta a um navegador.
 
 ## Recursos
 
@@ -19,8 +19,8 @@ CLI em Node.js para descobrir, enriquecer e qualificar leads B2B no Google Place
 ## Instalação
 
 ```bash
-git clone <URL_DO_REPOSITORIO>
-cd school-leads-finder
+git clone https://github.com/igustavobrandao/BuscaLead.git
+cd BuscaLead
 npm install
 cp .env.example .env
 ```

@@ -1,0 +1,22 @@
+{
+  "name": "school-leads-finder",
+  "version": "1.0.0",
+  "description": "CLI para descoberta e qualificação de leads via Google Places API (New).",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "search": "node src/index.js",
+    "test": "node --test",
+    "test:watch": "node --test --watch",
+    "check": "node --check src/index.js"
+  },
+  "keywords": ["google-places", "leads", "prospecting", "cli", "b2b"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "csv-stringify": "^6.9.0",
+    "dotenv": "^17.2.3"
+  }
+}

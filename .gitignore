@@ -1,0 +1,12 @@
+node_modules/
+build/
+dist/
+coverage/
+.test-output/
+.DS_Store
+*.log
+.env*
+!.env.example
+.cache/
+output/
+buscas-*.txt
